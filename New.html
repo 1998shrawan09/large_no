@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Largest_number</title>
+</head>
+<body>
+    <script>
+    const x = parseFloat(prompt("Enter first number: "));
+        const y = parseFloat(prompt("Enter second number: "));
+        const z = parseFloat(prompt("Enter third number: "));
+        let largest;
+            if(x >= y && x >= z) {
+                largest = x;
+            }
+            else if (y >= x && y >= z) {
+                largest = y;
+            }
+            else {
+                largest = z;
+            }
+         console.log("The largest number is " + largest);
+    </script>
+</body>
+</html>
